@@ -46,7 +46,7 @@ Before running the application, ensure you have:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ai-car-analyzer-pro.git
+   git clone https://github.com/YAKHLAFYahya/ai-car-analyzer.git
    cd ai-car-analyzer-pro
    ```
 
@@ -241,38 +241,35 @@ BRAND_MULTIPLIERS = {
 ### Project Structure
 
 ```
-ai-car-analyzer-pro/
-├── frontend/                   # React frontend application
+FINAL/
+├── backend/
+│   ├── __pycache__/
+│   ├── analyzer.py          # Car analysis functions
+│   ├── config.py           # Configuration settings
+│   ├── main.py            # FastAPI app and routes
+│   ├── models.py          # Pydantic schemas
+│   ├── requirements.txt   # Dependencies
+│   └── utils.py          # Helper functions
+├── frontend/
+│   ├── node_modules/
 │   ├── public/
-│   │   ├── index.html
-│   │   └── favicon.ico
+│   │   └── index.html
 │   ├── src/
 │   │   ├── components/
-│   │   ├── hooks/
-│   │   ├── services/
 │   │   ├── utils/
-│   │   └── App.js
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── index.jsx
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── package-lock.json
 │   ├── package.json
-│   └── .env
-├── backend/                    # FastAPI backend server
-│   ├── main.py                # Main FastAPI application
-│   ├── models/                # Pydantic models
-│   ├── services/              # Business logic
-│   │   └── car_analyzer.py    # AI analysis service
-│   ├── requirements.txt       # Python dependencies
-│   └── index.html            # Optional frontend serving
-├── docker-compose.yml         # Multi-service deployment
-├── README.md
-└── .gitignore
+│   ├── README.md
+│   └── vite.config.js
+├── readme.md
+└── vite.config.js
 ```
 
-### Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 🚀 Deployment
 
@@ -491,8 +488,6 @@ For detailed API documentation, visit the backend documentation at:
 - **Frontend Documentation**: [React Documentation](https://reactjs.org/docs)
 - **Backend Documentation**: [FastAPI Documentation](https://fastapi.tiangolo.com/)
 - **AI Model**: [Ollama LLaVA Documentation](https://ollama.ai/library/llava)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/ai-car-analyzer-pro/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/ai-car-analyzer-pro/discussions)
 
 ### Troubleshooting
 
@@ -528,4 +523,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made by [Yahya YAKHLAF](https://github.com/yourusername)**
+**Made by [Yahya YAKHLAF](https://github.com/YAKHLAFYahya/)**
