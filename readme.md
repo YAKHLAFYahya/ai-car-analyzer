@@ -1,4 +1,4 @@
-# AI Car Analyzer Pro
+# AI Car Analyzer
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18+-blue.svg)](https://reactjs.org/)
@@ -283,7 +283,7 @@ This creates a `build/` directory with optimized, production-ready files.
 
 ### Deployment Options
 
-- **Netlify**: Connect your repository for automatic deployments
+- **Netlify**: Connect the repository for automatic deployments
 - **Vercel**: Zero-config deployment with Git integration
 - **AWS S3**: Static website hosting with CloudFront CDN
 - **Docker**: Containerized deployment for any platform
@@ -383,12 +383,7 @@ EXPOSE 3000
 CMD ["serve", "-s", "build", "-l", "3000"]
 ```
 
-## 📊 Performance
 
-- **Lighthouse Score**: 95+ (Performance, Accessibility, Best Practices, SEO)
-- **Bundle Size**: < 500KB gzipped
-- **First Contentful Paint**: < 1.5s
-- **Time to Interactive**: < 3.5s
 
 ## 🔒 Security
 
@@ -479,9 +474,7 @@ The backend uses the **Ollama LLaVA model** for image analysis:
 - **Focus areas**: General, exterior, interior, and wheel-specific analysis
 - **Confidence scoring**: Automatic confidence assessment for each analysis
 
-For detailed API documentation, visit the backend documentation at:
-- Development: `http://localhost:8000/docs`
-- Production: `https://your-api-domain.com/docs`
+
 
 ## 🤝 Support
 
@@ -519,7 +512,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Ollama](https://ollama.ai/) - Local AI model serving
 - [LLaVA](https://llava-vl.github.io/) - Large Language and Vision Assistant model
 - [ESLint](https://eslint.org/) - Code quality and formatting
-- Contributors and community members
 
 ---
 
