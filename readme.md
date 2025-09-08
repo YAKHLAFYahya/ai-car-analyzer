@@ -47,7 +47,7 @@ Before running the application, ensure you have:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/YAKHLAFYahya/ai-car-analyzer.git
-   cd ai-car-analyzer-pro
+   cd ai-car-analyzer
    ```
 
 2. **Install dependencies**
