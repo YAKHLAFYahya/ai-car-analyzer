@@ -6,7 +6,7 @@
 
 A powerful web application that leverages AI to analyze car images and provide accurate price estimations. Upload single or multiple vehicle photos to get comprehensive analysis of characteristics, condition assessment, and market value estimates.
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 - **Multi-Image Analysis**: Upload up to 10 car images simultaneously for comprehensive evaluation
@@ -20,7 +20,7 @@ A powerful web application that leverages AI to analyze car images and provide a
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 - **Format Support**: Compatible with JPG, PNG, and WebP image formats
 
-## 🏗️ Architecture
+## Architecture
 
 This application follows a modern full-stack architecture:
 
@@ -30,7 +30,7 @@ This application follows a modern full-stack architecture:
 - **Communication**: RESTful API with JSON data exchange
 - **Deployment**: Production-ready build system with Docker support
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -69,7 +69,7 @@ Before running the application, ensure you have:
 5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -81,7 +81,7 @@ REACT_APP_MAX_FILE_SIZE=10485760
 REACT_APP_MAX_FILES=10
 ```
 
-## 🚀 Backend Setup
+## Backend Setup
 
 ### Backend Prerequisites
 
@@ -229,7 +229,7 @@ BRAND_MULTIPLIERS = {
 }
 ```
 
-## 🛠️ Development
+## Development
 
 ### Available Scripts
 
@@ -271,7 +271,7 @@ FINAL/
 ```
 
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Build
 
@@ -383,17 +383,7 @@ EXPOSE 3000
 CMD ["serve", "-s", "build", "-l", "3000"]
 ```
 
-
-
-## 🔒 Security
-
-- Input validation for all file uploads
-- File type verification and sanitization
-- Rate limiting on API endpoints
-- HTTPS enforcement in production
-- Content Security Policy headers
-
-## 🧪 Testing
+## Testing
 
 ### Frontend Testing
 
@@ -447,7 +437,7 @@ curl -X POST \
   http://localhost:8000/analyze-multiple
 ```
 
-## 📝 API Documentation
+## API Documentation
 
 ### Interactive API Documentation
 
@@ -476,7 +466,7 @@ The backend uses the **Ollama LLaVA model** for image analysis:
 
 
 
-## 🤝 Support
+## Support
 
 - **Frontend Documentation**: [React Documentation](https://reactjs.org/docs)
 - **Backend Documentation**: [FastAPI Documentation](https://fastapi.tiangolo.com/)
@@ -500,18 +490,10 @@ The backend uses the **Ollama LLaVA model** for image analysis:
 
 4. **Large file uploads failing**: Check file size limits (default 10MB per image)
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- [React](https://reactjs.org/) - Frontend framework
-- [Vite](https://vitejs.dev/) - Build tool and development server
-- [FastAPI](https://fastapi.tiangolo.com/) - Backend framework  
-- [Ollama](https://ollama.ai/) - Local AI model serving
-- [LLaVA](https://llava-vl.github.io/) - Large Language and Vision Assistant model
-- [ESLint](https://eslint.org/) - Code quality and formatting
 
 ---
 
