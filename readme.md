@@ -490,9 +490,6 @@ The backend uses the **Ollama LLaVA model** for image analysis:
 
 4. **Large file uploads failing**: Check file size limits (default 10MB per image)
 
-##  License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 ---
